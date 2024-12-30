@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+#container {
+background: #fff;
+overflow-y: scroll;
+width: 300px;
+height: 400px;
+}
+#container::-webkit-scrollbar {
+   display: none;
+    }
+
+.product {
+font-size: 10px;
+padding: 10px
+}
+
+.product-list {
+padding: 10px;}
+
+.product img {
+    width: 70px;
+}
